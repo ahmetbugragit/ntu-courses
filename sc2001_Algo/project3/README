@@ -1,0 +1,28 @@
+# SC2001 Project 3 — Algorithm Design & Evaluation
+
+This repository contains our work for **SC2001 Algorithm Design and Analysis – Project 3**.
+
+## Overview
+This project focuses on applying algorithm design techniques and evaluating
+their performance through **experimental analysis**.
+
+Emphasis is placed on understanding trade-offs between different approaches
+and validating theoretical expectations with empirical results.
+
+## What We Did
+- Implemented the required algorithms as specified in the project
+- Designed experiments to evaluate algorithm performance
+- Analyzed results using runtime and/or operation counts
+- Interpreted findings and discussed algorithmic trade-offs
+- Prepared and delivered a **10-minute presentation** summarizing the work
+
+## Files
+- `Project 3.pdf` – Project specification
+- `SC2001_proj3.pptx` – **10-minute presentation slides**
+- Source code files – Algorithm implementations (if applicable)
+
+## Run
+> Refer to the source files for execution details.
+
+## Course
+SC2001 / CE2101 / CZ2101 – Nanyang Technological University (NTU)
