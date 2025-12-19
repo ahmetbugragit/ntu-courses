@@ -1,0 +1,51 @@
+# SC3000/CZ3005 Assignment 1: Teaching NanoGPT to Do Math
+
+In this assignment, we fine-tuned a pre-trained character-level NanoGPT model using Reinforcement Learning (Direct Preference Optimization - DPO) to solve arithmetic and simple algebraic problems.
+
+The base model was originally trained on QA data and lacked mathematical reasoning capabilities. Our objective was to enable it to solve equations involving addition, subtraction, multiplication, and division.
+
+## Project Overview
+
+We implemented the complete training pipeline in `dpo/dpo.ipynb`, consisting of three main stages:
+
+### 1. Data Generation (Task 1)
+We generated a dataset of **100,000 synthetic positive-negative pairs** stored in `pos_neg_pairs.json`. The data generation logic covers:
+* **Arithmetic Operations:** Addition (+), Subtraction (-), Multiplication (*), and Division (/).
+* **Algebraic Formats:** Handling variable positions such as `x + b = c` (x on left) and `a + x = c` (x on right).
+* **Reasoning:** Positive samples include the step-by-step reasoning (e.g., "The answer is 6 because 48/8 equals 6"), while negative samples simulate the model's initial "I don't know" state.
+
+### 2. DPO Training (Task 2)
+We implemented the DPO loss function to fine-tune the model preferences.
+* **Optimizer:** AdamW with CosineAnnealingLR scheduler.
+* **Hyperparameters:**
+    * `base_lr`: Adjusted to `5e-4` to improve convergence on calculus tasks.
+    * `epochs`: Increased to `10` for better stability.
+    * `beta`: 0.5
+* **Loss Calculation:** Implemented the sigmoid-based DPO loss to maximize the likelihood of positive responses over negative ones.
+
+### 3. Testing & Evaluation (Task 3)
+The fine-tuned model was evaluated on unseen test prompts. The model successfully generalizes to solve problems like:
+* `17+19=?`
+* `72-x=34, x=?`
+* `x*11=44, x=?`
+
+## Usage
+
+1.  **Dependencies:**
+    Install the required packages:
+    ```bash
+    pip install torch numpy transformers datasets tiktoken wandb tqdm matplotlib
+    ```
+
+2.  **Training:**
+    Run the `dpo/dpo.ipynb` notebook sequentially. This will:
+    * Generate the `pos_neg_pairs.json` dataset.
+    * Load the pre-trained `sft/gpt.pt` weights.
+    * Train the model and save checkpoints to `dpo/dpo.pt`.
+
+3.  **Inference:**
+    The final section of the notebook loads the trained model and runs inference on a set of test queries.
+
+## Team Members
+* Muhammed Ikbal Ozbey
+* Ahmet Bugra Kus
