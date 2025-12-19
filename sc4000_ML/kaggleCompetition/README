@@ -1,0 +1,16 @@
+# Linking Writing Processes to Writing Quality
+
+In this SC4000 Machine Learning course project, we developed a solution for the Kaggle competition: [Linking Writing Processes to Writing Quality](https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/overview).
+
+## Overview
+The objective is to predict essay quality scores based purely on keystroke log data (typing behavior, pauses, edits) rather than the final text content. We focused on extracting behavioral patterns from time-series data to train regression models.
+
+## Approach
+* **Feature Engineering:** We aggregated raw event logs into statistical features, capturing Inter-Key Intervals (IKI), writing bursts, and editing ratios (e.g., backspace usage).
+* **Modeling:** We implemented Gradient Boosting Decision Trees (LightGBM, XGBoost, CatBoost) to handle the tabular feature set.
+* **Validation:** 5-Fold Cross-Validation was used to evaluate model performance (RMSE).
+
+## Usage
+1.  Install dependencies: `pip install -r requirements.txt`
+2.  Download the dataset from the [competition page](https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/data) and place it in the `data/` folder.
+3.  Run the notebooks in `notebooks/` to reproduce the feature extraction and training process.
