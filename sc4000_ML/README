@@ -1,0 +1,17 @@
+# SC4000: Machine Learning
+
+This repository contains my study notes and codebase for the SC4000 Machine Learning course.
+
+## Course Overview
+
+This course provided a comprehensive introduction to machine learning algorithms and their applications. Key topics covered include:
+
+* **Supervised Learning:** Linear & Logistic Regression, Support Vector Machines (SVM), Decision Trees.
+* **Unsupervised Learning:** Clustering (K-Means), Dimensionality Reduction (PCA).
+* **Ensemble Methods:** Random Forests, Gradient Boosting.
+* **Deep Learning:** Fundamentals of Neural Networks and Backpropagation.
+* **Model Evaluation:** Cross-validation techniques, bias-variance tradeoff, and regularization.
+
+## Practical Application
+
+I applied the theoretical concepts learned in this course to a real-world problem through the final group project. We participated in the **"Linking Writing Processes to Writing Quality"** Kaggle competition, where we developed a machine learning pipeline to predict essay scores based on keystroke dynamics.
