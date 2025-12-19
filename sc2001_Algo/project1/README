@@ -1,0 +1,34 @@
+# SC2001 Project 1 — Hybrid Merge Sort
+
+This repository contains our work for **SC2001 Algorithm Design and Analysis – Project 1**.
+
+## Overview
+We implement a **hybrid sorting algorithm** that combines:
+- **Mergesort** for large subarrays
+- **Insertion Sort** when subarray size ≤ threshold **S**
+
+The goal is to reduce recursion overhead and improve practical performance.
+
+## What We Did
+- Implemented **Hybrid Merge Sort (Merge + Insertion)**
+- Implemented **Original Mergesort** for comparison
+- Measured:
+  - **Key comparisons**
+  - **CPU execution time**
+- Experimentally determined an **optimal threshold S**
+- Compared performance on large datasets
+
+## Key Findings
+- Hybrid sort achieves **lower CPU time** than original Mergesort
+- Optimal **S** minimizes total cost (merge overhead vs insertion cost)
+- Performance gains become clearer for large input sizes
+
+## Files
+- `lab1.cpp` – Source code (re-upload if missing)
+- `SC2001 project 1.pptx` – Presentation & results
+- `project 1.pdf` – Project specification
+
+## Build & Run (Example)
+```bash
+g++ -O2 -std=c++17 lab1.cpp -o hybrid_sort
+./hybrid_sort
