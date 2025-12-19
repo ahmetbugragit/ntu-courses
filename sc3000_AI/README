@@ -1,0 +1,33 @@
+# SC3000: Artificial Intelligence
+
+This repository contains my coursework, study notes, and implementation exercises for the SC3000 Artificial Intelligence course at Nanyang Technological University (NTU).
+
+## Course Overview
+
+This course explores the fundamental principles and techniques of Artificial Intelligence, focusing on problem-solving, logic, and learning agents.
+
+### Key Topics Covered
+
+* **Problem Solving & Search:**
+    * Uninformed Search (BFS, DFS)
+    * Informed Search (A* Algorithm, Heuristics)
+    * Adversarial Search (Minimax, Alpha-Beta Pruning)
+* **Constraint Satisfaction Problems (CSP):** Backtracking search and local search techniques.
+* **Knowledge Representation:** Propositional Logic and First-Order Logic.
+* **Reinforcement Learning (RL):** Markov Decision Processes (MDP), Q-Learning, and Policy Optimization.
+* **Deep Learning Basics:** Introduction to Neural Networks and Backpropagation.
+
+## Practical Implementation
+
+### Assignment: LLM Alignment with Reinforcement Learning
+Applied Reinforcement Learning concepts to align a Large Language Model (NanoGPT).
+* **Task:** Fine-tuned a character-level GPT model using **Direct Preference Optimization (DPO)**.
+* **Outcome:** Enabled the model to solve arithmetic and algebraic problems by training it on a generated dataset of positive/negative reasoning pairs.
+* **Tools:** PyTorch, Transformers.
+
+## Repository Structure
+
+* `assignment/`: Code and documentation for the NanoGPT alignment project.
+
+---
+*Note: This repository is for educational purposes.*
