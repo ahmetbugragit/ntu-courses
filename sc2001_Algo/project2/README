@@ -1,0 +1,28 @@
+# SC2001 Lab 2 — Algorithm Analysis
+
+This repository contains our work for **SC2001 Algorithm Design and Analysis – Lab 2**.
+
+## Overview
+In this lab, we implemented and analyzed algorithmic solutions with a focus on
+**performance evaluation and empirical analysis**.
+
+The lab emphasizes understanding how theoretical complexity translates into
+real execution behavior.
+
+## What We Did
+- Implemented required algorithms in Python
+- Tested algorithms on different input sizes
+- Analyzed runtime behavior and performance trends
+- Discussed results and observations based on experimental data
+- Prepared and delivered a **10-minute presentation** summarizing our approach and findings
+
+## Files
+- `lab2_a.py` – Algorithm implementation (Part A)
+- `lab2_b.py` – Algorithm implementation (Part B)
+- `Project 2.pdf` – Lab specification
+- `SC2001 Lab 2.pptx` – **10-minute presentation slides**
+
+## Run (Example)
+```bash
+python lab2_a.py
+python lab2_b.py
