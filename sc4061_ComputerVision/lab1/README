@@ -1,0 +1,27 @@
+# SC4061 – Computer Vision | Lab 1
+
+This repository contains my **Lab 1 assignment** for the SC4061 Computer Vision course.
+
+In this lab, I implemented and analyzed fundamental **image processing techniques in MATLAB**, including contrast enhancement, spatial and frequency domain filtering, geometric transformations, and basic color-based object detection. The experiments focus on understanding how different methods affect image quality under various conditions such as noise and perspective distortion.
+
+## Files
+
+- `lab1.m` — MATLAB script implementing all lab tasks.
+- `AHMETBUGRAKUS_SC4061_LAB1_REPORT (1).pdf` — Submitted lab report with explanations and results.
+- `Lab1 manual.pdf` — Official lab instructions.
+
+## Topics Covered
+
+- Contrast stretching and histogram equalization  
+- Gaussian and median filtering  
+- Frequency-domain noise removal using FFT  
+- Projective transformation (homography)  
+- Color-based region detection in HSV space  
+
+## How to Run
+
+Open `lab1.m` in MATLAB, ensure required images are in the same directory, and run the script.
+
+## Author
+
+Ahmet Buğra Kuş
