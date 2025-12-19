@@ -1,0 +1,94 @@
+# SC2001 — Algorithm Design and Analysis (NTU)
+
+This repository summarizes my learning and coursework for  
+**SC2001: Algorithm Design and Analysis** at  
+**Nanyang Technological University (NTU), Singapore**.
+
+## Course Overview
+SC2001 focuses on designing efficient algorithms and analyzing their behavior
+using both **theoretical techniques** and **empirical evaluation**.
+
+The course progresses from fundamental sorting algorithms to advanced topics
+such as graph algorithms, greedy strategies, dynamic programming, and NP-related problems.
+
+## Topics Covered & What I Learned
+
+### Algorithm Analysis Techniques
+- Time and space complexity analysis
+- Asymptotic notation: **Big-O, Θ, Ω**
+- Best, average, and worst-case analysis
+- Practical cost models and operation counting
+
+### Sorting Algorithms
+- **Insertion Sort**
+- **Merge Sort**
+- **Quick Sort**
+- **Heap Sort**
+- Trade-offs between comparison-based sorting algorithms
+- Impact of recursion, partitioning, and data distribution on performance
+
+### Divide and Conquer
+- Recursive problem decomposition
+- Merge-based strategies
+- Hybrid approaches combining multiple algorithms
+
+### Graph Algorithms
+- Graph representations (adjacency list / matrix)
+- Graph traversal:
+  - **Breadth-First Search (BFS)**
+  - **Depth-First Search (DFS)**
+- **Topological Sorting** for DAGs
+
+### Minimum Spanning Trees (MST)
+- **Prim’s Algorithm**
+- **Kruskal’s Algorithm**
+- **Union-Find (Disjoint Set Union)**
+  - Path compression
+  - Union by rank
+- Understanding correctness and efficiency of greedy MST algorithms
+
+### Shortest Path Algorithms
+- **Dijkstra’s Algorithm**
+- Comparison with MST-based approaches
+- Limitations and assumptions (e.g., non-negative edge weights)
+
+### Greedy Algorithms
+- Greedy choice property
+- Proof of correctness using exchange arguments
+- When greedy works vs when it fails
+
+### Dynamic Programming
+- Identifying overlapping subproblems and optimal substructure
+- Bottom-up vs top-down (memoization)
+- Table construction and state transition design
+
+### String Matching
+- Basic string matching techniques
+- Pattern searching and efficiency considerations
+
+### NP and Computational Complexity
+- Introduction to **P vs NP**
+- NP-complete problems
+- Polynomial-time reductions
+- Limits of efficient algorithm design
+
+## Projects & Labs
+To apply these concepts, several assessed components were completed:
+
+- **Project 1**: Hybrid Merge Sort (Merge + Insertion)
+- **Lab 2**: Algorithm implementation and empirical performance analysis
+- **Project 3**: Algorithm design and evaluation
+
+Each included implementation, analysis, and a **10-minute presentation** explaining
+the approach and results.
+
+## Learning Outcome
+By completing this course, I developed the ability to:
+- Analyze algorithms rigorously
+- Select appropriate algorithmic strategies for different problems
+- Understand trade-offs between theory and real execution behavior
+- Communicate algorithmic ideas clearly through presentations and reports
+
+## Institution
+Nanyang Technological University (NTU)  
+School of Computer Science and Engineering
