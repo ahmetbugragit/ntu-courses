@@ -1,0 +1,26 @@
+# SC4061 – Computer Vision | Lab 2
+
+This repository contains my **Lab 2 assignment** for the SC4061 Computer Vision course.
+
+In this lab, I focused on **image thresholding and segmentation techniques**, implementing both global and local methods in MATLAB. The goal was to analyze how different thresholding strategies perform under varying illumination and image conditions, and to compare their strengths and weaknesses.
+
+## Files
+
+- `lab2.m` — MATLAB script implementing all Lab 2 tasks.
+- `AhmetBugraKus.pdf` — Submitted lab report with results and discussion.
+- `Lab2.pdf` — Official lab instructions.
+
+## Topics Covered
+
+- Global thresholding  
+- Otsu’s method  
+- Local/adaptive thresholding (e.g. Niblack-style approaches)  
+- Comparison of segmentation results under different conditions  
+
+## How to Run
+
+Open `lab2.m` in MATLAB, make sure required images are in the same directory, and run the script.
+
+## Author
+
+Ahmet Buğra Kuş
