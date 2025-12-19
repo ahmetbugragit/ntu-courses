@@ -1,0 +1,36 @@
+# SC4061 – Computer Vision (NTU, Nanyang Technological University)
+
+This repository contains laboratory assignments completed for **SC4061 – Computer Vision** at **Nanyang Technological University (NTU), Singapore**.  
+The work is centered on the **core concepts taught in the course**, with an emphasis on understanding *what is learned in computer vision and why*.
+
+## What I Learned in SC4061
+
+The SC4061 course focuses on how computers interpret and analyze visual information. Throughout the course, I learned:
+
+- **How digital images are represented** as intensity and color matrices, and how pixel-level operations affect visual information.
+- **Image enhancement techniques**, including contrast stretching and histogram equalization, to improve visibility and dynamic range.
+- **Noise modeling and removal**, using spatial filters (Gaussian averaging, median filtering) and understanding their behavior under different noise types.
+- **Frequency-domain analysis**, applying the Fourier Transform to detect and suppress periodic interference in images.
+- **Image segmentation principles**, learning how to separate foreground and background using global, adaptive, and statistically driven thresholding methods.
+- **Otsu’s method**, understanding variance-based optimal threshold selection.
+- **Geometric transformations**, including projective transformations (homography) to correct perspective distortion.
+- **Color-based analysis**, using HSV color space for robust region detection and object localization.
+
+These topics form the foundation of **low-level and mid-level computer vision**, which are essential for higher-level tasks such as object recognition and scene understanding.
+
+## Lab Implementation
+
+The laboratory assignments translate theoretical concepts into practice using **MATLAB**:
+
+- **Lab 1** focuses on image enhancement, filtering, frequency analysis, and geometric transformations.
+- **Lab 2** focuses on image thresholding and segmentation, comparing global and local approaches under different illumination conditions.
+
+## Purpose
+
+The purpose of this repository is to demonstrate a **conceptually grounded understanding of computer vision fundamentals**, aligned with the learning outcomes of NTU’s SC4061 course, supported by practical implementations and analysis.
+
+## Author
+
+Ahmet Buğra Kuş  
+SC4061 – Computer Vision  
+Nanyang Technological University
